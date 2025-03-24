@@ -20,7 +20,7 @@ app.use(express.json());
 
 // Enable CORS
 app.use(cors({
-  origin: ['https://your-frontend-domain.vercel.app', 'http://localhost:5173'],
+  origin: ['https://frontend-real-estate-chatbot.vercel.app', 'http://localhost:5173'],
   credentials: true
 }));
 
